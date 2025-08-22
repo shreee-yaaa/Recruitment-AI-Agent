@@ -66,7 +66,10 @@ python -m venv .venv
 ```bash
 pip install -r requirements.txt
 
+---
+
 ## How to Run the Project Locally
+
 ### Backend (FastAPI)
 ```bash
 cd backend
@@ -77,6 +80,8 @@ uvicorn main:app --reload
 cd frontend
 streamlit run streamlit_app.py
 
+---
+
 ## Description of the AI Logic
 
 The Recruitment AI Agent uses a combination of NLP techniques to match resumes with job descriptions:
@@ -86,6 +91,8 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 - **Similarity Matching**: Computes cosine similarity between the job description and each resume to rank candidates.
 - **Scoring & Ranking**: Provides a relevance score for each candidate and ranks them accordingly.
 
+---
+
 ## Explanation of Model Choices
 
 - **Sentence-Transformers**: Chosen for efficient and accurate semantic text embeddings.  
@@ -93,6 +100,8 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 - **Streamlit**: Used for creating a user-friendly interface without extensive frontend coding.  
 - **Cosine Similarity**: Simple and effective metric for semantic text comparison.  
 - **PyTorch**: Required for sentence-transformers models.
+
+---
 
 ## Example JD and Resume Files
 
