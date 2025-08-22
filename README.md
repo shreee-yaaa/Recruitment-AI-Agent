@@ -81,9 +81,7 @@ cd frontend
 streamlit run streamlit_app.py
 
 ---
-
-*## Description of the AI Logic*
-
+🧠 Description of the AI Logic
 The Recruitment AI Agent uses a combination of NLP techniques to match resumes with job descriptions:
 
 - **Text Extraction**: Converts PDFs and DOCX resumes into plain text.
@@ -93,7 +91,7 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 
 ---
 
-*## Explanation of Model Choices*
+📊 Explanation of Model Choices
 
 - **Sentence-Transformers**: Chosen for efficient and accurate semantic text embeddings.  
 - **FastAPI**: Provides a lightweight, fast, and modern backend API for serving requests.  
@@ -102,9 +100,7 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 - **PyTorch**: Required for sentence-transformers models.
 
 ---
-
-*## Example JD and Resume Files*
-
+📄 Example JD and Resume Files
 To test the system locally, you can use:
 
 - `examples/example_jd.txt` – Example Job Description  
