@@ -1,4 +1,4 @@
-# 🤖 Recruitment AI Agent
+*# 🤖 Recruitment AI Agent*
 
 An AI-powered recruitment assistant that helps HR professionals evaluate resumes against job descriptions and generate personalized interview/rejection emails.
 
@@ -48,7 +48,7 @@ recruitment-agent/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ **Clone the repository** (or download ZIP):
+###  **Clone the repository** (or download ZIP):
 
 ```bash
 git clone https://github.com/your-username/Recruitment-AI-Agent.git
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## How to Run the Project Locally
+*##  How to Run the Project Locally*
 
 ### Backend (FastAPI)
 ```bash
@@ -82,7 +82,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## Description of the AI Logic
+*## Description of the AI Logic*
 
 The Recruitment AI Agent uses a combination of NLP techniques to match resumes with job descriptions:
 
@@ -93,7 +93,7 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 
 ---
 
-## Explanation of Model Choices
+*## Explanation of Model Choices*
 
 - **Sentence-Transformers**: Chosen for efficient and accurate semantic text embeddings.  
 - **FastAPI**: Provides a lightweight, fast, and modern backend API for serving requests.  
@@ -103,12 +103,10 @@ The Recruitment AI Agent uses a combination of NLP techniques to match resumes w
 
 ---
 
-## Example JD and Resume Files
+*## Example JD and Resume Files*
 
 To test the system locally, you can use:
 
 - `examples/example_jd.txt` – Example Job Description  
 - `examples/resume_raj.txt` – Example Resume 1  
 - `examples/resume_rita.txt` – Example Resume 2
-
-
